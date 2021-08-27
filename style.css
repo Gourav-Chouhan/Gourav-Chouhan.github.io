@@ -225,8 +225,6 @@ a {
   transform: translateX(0%);
 }
 
-
-
 .hamburger {
   width: 60px;
   height: 40px;
@@ -302,11 +300,10 @@ a {
 }
 
 .footer img {
-  filter: saturate(30%)
-  
+  filter: saturate(30%);
 }
 
-.footer img:hover{
+.footer img:hover {
   filter: saturate(100%);
   transform: scale(1.1);
 }
@@ -320,7 +317,6 @@ a {
 1025px — 1200px: Desktops, large screens
 1201px and more —  Extra large screens, TV */
 
-
 @media (min-width: 601px) {
   .navBarToggler {
     display: flex;
@@ -332,15 +328,15 @@ a {
   /* body {
     background-color: yellow;
   } */
-  .mid :nth-child(even){
+  .mid :nth-child(even) {
     flex-direction: column-reverse;
   }
-  
+
   .navBar {
     flex-direction: column;
     align-items: center;
     /* justify-content: left ; */
-    margin: auto ;
+    margin: auto;
     height: auto;
     /* display: none; */
   }
@@ -383,4 +379,3 @@ canvas {
   background: rgba(250, 250, 250, 0.048);
   margin: 100px;
 }
-
